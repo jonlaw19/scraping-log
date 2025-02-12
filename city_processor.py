@@ -108,9 +108,9 @@ class CityDataProcessor:
         return all_results
 
 def main():
-    api_key = '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'
-    input_file = 'input_cities.xlsx'  # Your input Excel file
-    output_file = 'city_results.xlsx'  # Where results will be saved
+    api_key = ''
+    input_file = 'input_cities.xlsx'  #  input Excel file
+    output_file = 'city_results.xlsx'  #  results file
     
     processor = CityDataProcessor(api_key, input_file, output_file)
     
